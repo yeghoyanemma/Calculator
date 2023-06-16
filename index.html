@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="maindiv">
+        <input id="input" type="text">
+        <button>
+            <img id="powerimg" src="./power.png" alt="">
+        </button>
+        <button id="AC" class="a">AC</button>
+        <button id="endbutton" class="a">End</button>
+        <button id="backbutton" class="a">Back</button>
+        <button class="b" onclick="f('/')">/</button>
+        <button class="c" onclick="f('7')">7</button>
+        <button class="c" onclick="f('8')">8</button>
+        <button class="c" onclick="f('9')">9</button>
+        <button class="b" onclick="f('*')">x</button>
+        <button class="c" onclick="f('4')">4</button>
+        <button class="c" onclick="f('5')">5</button>
+        <button class="c" onclick="f('6')">6</button>
+        <button class="b" onclick="f('-')">-</button>
+        <button class="c" onclick="f('1')">1</button>
+        <button class="c" onclick="f('2')">2</button>
+        <button class="c" onclick="f('3')">3</button>
+        <button class="b" onclick="f('+')">+</button>
+        <button class="b" onclick="s()">=</button>
+        <button class="c" onclick="f('0')">0</button>
+        <button class="b" onclick="f('.')">.</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
